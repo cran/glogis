@@ -6,7 +6,6 @@
 ## glue code for gbreakpoints() in fxregime
 breakpoints.glogisfit <- function(obj, h = 0.15, breaks = NULL, ic = "LWZ", hpc = "none", ...)
 {
-  stopifnot(require("fxregime"))
   dat <- data.frame(x = as.vector(obj$x))
   glogisfit0 <- function(formula, data, ...) glogisfit.default(data$x, fixed = obj$fixed, hessian = FALSE, ...)
   rval <- fxregime:::gbreakpoints(x ~ 1, data = dat, order.by = time(obj$x), fit = glogisfit0,
@@ -19,8 +18,8 @@ breakpoints.glogisfit <- function(obj, h = 0.15, breaks = NULL, ic = "LWZ", hpc 
 refit.breakpoints.glogisfit <- function(object, ...) {
   bf <- strucchange::breakfactor(object, ...)
   rval <- tapply(object$null$x, bf, glogisfit, fixed = object$null$fixed)
-  names(rval) <- paste(tapply(format(object$index), bf, head, 1), "--",
-    tapply(format(object$index), bf, tail, 1), sep = "")
+  names(rval) <- paste(tapply(format(object$index), bf, "[", 1), "--",
+    tapply(format(object$index), bf, function(x) x[length(x)]), sep = "")
   return(rval)
 }
 
