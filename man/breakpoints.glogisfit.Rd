@@ -74,9 +74,9 @@
   from the \pkg{strucchange} package but employing user-defined estimation methods.
 
   Optional support for high performance computing is available in the \code{breakpoints}
-  method, currently using \code{\link[foreach]{foreach}} for the dynamic programming algorithm.
+  method based on the \pkg{foreach} package for the dynamic programming algorithm.
   If \code{hpc = "foreach"} is to be used, a parallel backend should be registered
-  before. See \code{\link[foreach]{foreach}} for more information.
+  before. See \code{\link[strucchange]{breakpoints}} for more information.
 }
 
 \value{
@@ -90,7 +90,7 @@
 
   Zeileis A, Shah A, Patnaik I (2010). Testing, Monitoring, and Dating Structural
   Changes in Exchange Rate Regimes. \emph{Computational Statistics and Data Analysis},
-  \bold{54}(6), 1696--1706. \url{http://dx.doi.org/10.1016/j.csda.2009.12.005}.
+  \bold{54}(6), 1696--1706. \doi{10.1016/j.csda.2009.12.005}.
 }
 
 \seealso{\code{\link{glogisfit}}, \code{\link[fxregime]{fxregimes}}, \code{\link[strucchange]{breakpoints}}}

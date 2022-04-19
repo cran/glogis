@@ -1,6 +1,6 @@
 Package: glogis
-Version: 1.0-1
-Date: 2018-03-16
+Version: 1.0-2
+Date: 2022-04-19
 Title: Fitting and Testing Generalized Logistic Distributions
 Authors@R: c(person(given = "Achim", family = "Zeileis", role = c("aut", "cre"), email = "Achim.Zeileis@R-project.org",
                     comment = c(ORCID = "0000-0003-0918-3766")),
@@ -15,9 +15,9 @@ Suggests: strucchange, fxregime, lattice
 Imports: graphics, stats, sandwich
 License: GPL-2 | GPL-3
 NeedsCompilation: no
-Packaged: 2018-03-15 23:51:06 UTC; zeileis
+Packaged: 2022-04-19 07:43:01 UTC; zeileis
 Author: Achim Zeileis [aut, cre] (<https://orcid.org/0000-0003-0918-3766>),
   Thomas Windberger [aut]
 Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
 Repository: CRAN
-Date/Publication: 2018-03-16 08:47:31 UTC
+Date/Publication: 2022-04-19 12:12:37 UTC

@@ -38,12 +38,12 @@ computed use \code{\link{stl}} (see examples).
 \source{
 Organisation for Economic Co-operation and Development (OECD)
 
-\url{http://stats.oecd.org/}
+\url{https://stats.oecd.org/}
 }
 
 \references{
   Wikipedia (2010). "Harmonised Index of Consumer Prices -- Wikipedia, The Free Encyclopedia."
-  \url{http://en.wikipedia.org/wiki/Harmonised_Index_of_Consumer_Prices}, accessed 2010-06-10.
+  \url{https://en.wikipedia.org/wiki/Harmonised_Index_of_Consumer_Prices}, accessed 2010-06-10.
 
   Windberger T, Zeileis A (2014). Structural Breaks in Inflation Dynamics within the
     European Monetary Union. \emph{Eastern European Economics}, \bold{52}(3), 66--88.

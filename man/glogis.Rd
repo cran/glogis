@@ -62,7 +62,7 @@ sglogis(x, location = 0, scale = 1, shape = 1)
 \references{
   Johnson NL, Kotz S, Balakrishnan N (1995)
   \emph{Continuous Univariate Distributions}, volume 2.
-  John Wiley \& Sons, New York.
+  John Wiley & Sons, New York.
 
   Shao Q (2002). Maximum Likelihood Estimation for Generalised Logistic Distributions.
   \emph{Communications in Statistics -- Theory and Methods}, \bold{31}(10), 1687--1700.
