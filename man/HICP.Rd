@@ -38,7 +38,7 @@ computed use \code{\link{stl}} (see examples).
 \source{
 Organisation for Economic Co-operation and Development (OECD)
 
-\url{https://stats.oecd.org/}
+\url{https://data-explorer.oecd.org/}
 }
 
 \references{

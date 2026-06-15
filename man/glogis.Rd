@@ -5,7 +5,7 @@
 \alias{rglogis}
 \alias{sglogis}
 
-\title{The Generalized Logistic Distribution (Type I: Skew-Logitic)}
+\title{The Generalized Logistic Distribution (Type I: Skew-Logistic)}
 
 \description{
   Density, distribution function, quantile function and random

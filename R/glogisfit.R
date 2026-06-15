@@ -204,7 +204,7 @@ summary.glogisfit <- function(object, log = TRUE, breaks = NULL, ...)
   object$coefficients <- cf
   
   ## number of iterations
-  object$iterations <- as.vector(na.omit(object$optim$count))
+  object$iterations <- as.vector(na.omit(object$optim$counts))
   object$iterations <- object$iterations[length(object$iterations)]
 
   ## chi-squared goodness-of-fit test

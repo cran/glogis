@@ -9,17 +9,18 @@ bibentry(bibtype = "Manual",
          year    = year,
          note    = note,
          url     = "https://CRAN.R-project.org/package=glogis",
+         doi     = "10.32614/CRAN.package.glogis",
          header  = "To cite glogis in publications use"
 )
 
 bibentry(bibtype = "Article",
-  title          = "Structural Breaks in Inflation Dynamics within the European Monetary Union",
-  author         = c(as.person("Thomas Windberger"), as.person("Achim Zeileis")),
-  journal        = "Eastern European Economics",
-  year           = "2014",
-  volume         = "52",
-  number         = "3",
-  pages          = "66--88",
-  doi	         = "10.2753/EEE0012-8775520304",
-  header       = "If you use maximum likelihood inference for the generalized logistic distribution, please cite:"
+         title   = "Structural Breaks in Inflation Dynamics within the European Monetary Union",
+         author  = c(as.person("Thomas Windberger"), as.person("Achim Zeileis")),
+         journal = "Eastern European Economics",
+         year    = "2014",
+         volume  = "52",
+         number  = "3",
+         pages   = "66--88",
+         doi     = "10.2753/EEE0012-8775520304",
+         header  = "If you use maximum likelihood inference for the generalized logistic distribution, please cite:"
 )

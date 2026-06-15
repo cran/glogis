@@ -142,7 +142,7 @@ detaching ‘package:strucchange’, ‘package:sandwich’
 > flush(stderr()); flush(stdout())
 > 
 > ### Name: glogis
-> ### Title: The Generalized Logistic Distribution (Type I: Skew-Logitic)
+> ### Title: The Generalized Logistic Distribution (Type I: Skew-Logistic)
 > ### Aliases: dglogis pglogis qglogis rglogis sglogis
 > ### Keywords: distribution
 > 
